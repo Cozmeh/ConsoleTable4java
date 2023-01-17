@@ -18,7 +18,7 @@ class test
 
         ct4j table = new ct4j();
 
-        String[] header = {"first","second","andrepeat","last","lol","aekfugbryubt","lurhtsi","fiuahyrs","aj","akj","jhrb","ruhri","aleuhai","yrua"};
+        String[] header = {"loool","second","andrepeat","last","lol","aekfugbryubt","lurhtsi","fiuahyrs","aj","akj","jhrb","ruhri","aleuhai","yrua"};
         String[] row = {"gta san andreas","joood","brooo","loool","lol","jhfbjhb",";aiehurnf","lsol","aj","akj","jhrb","ruhri","aleuhai","yrua"};
         
         table.setHeader(header);
