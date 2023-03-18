@@ -1,6 +1,5 @@
 package ct4j;
 
-import java.security.spec.ECFieldF2m;
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
 import java.util.HashMap;
