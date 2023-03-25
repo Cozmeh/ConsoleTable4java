@@ -1,4 +1,4 @@
-package ct4j;
+package ConsoleTable;
 
 import java.util.ArrayList;
 import java.util.LinkedHashMap;
