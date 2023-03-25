@@ -29,7 +29,7 @@ class ct4j
 
 
     // constructor 
-    ct4j()
+    public ct4j()
     {
         headers = new ArrayList<>();
         rows = new HashMap<>();
@@ -46,19 +46,19 @@ class ct4j
 
     // ---------------------------------- user useable functiions---------------------------
 
-    protected void setHorizontalSeparator(char HorizontalSeparator){
+    public void setHorizontalSeparator(char HorizontalSeparator){
         horSep = "";
         horSep += HorizontalSeparator;
     }
-    protected void setVerticalSeparator(char VerticalSeparator){
+    public void setVerticalSeparator(char VerticalSeparator){
         verSep = "";
         verSep += VerticalSeparator;
     }
-    protected void setCornerJoint(char CornerJoint){
+    public void setCornerJoint(char CornerJoint){
         cornerJoint = "";
         cornerJoint += CornerJoint;
     }
-    protected void setUppercaseHeaders(Boolean uppercaseHeader) {
+    public void setUppercaseHeaders(Boolean uppercaseHeader) {
         this.uppercaseHearder = uppercaseHeader;
     }
 
@@ -66,7 +66,7 @@ class ct4j
 
 
     // setting up Headers or column title of the tables 
-    protected void setHeader(String ...Header) throws DuplicateHeaderException , MultipleHeaderException 
+    public void setHeader(String ...Header) throws DuplicateHeaderException , MultipleHeaderException 
     {
         HashMap<String,Integer> duplicate = new HashMap<>();
         duplicate.clear();
@@ -92,7 +92,7 @@ class ct4j
     }
 
     // add
-    protected void addRow(String ...Row) throws ElementSizeException
+    public void addRow(String ...Row) throws ElementSizeException
     {
         ArrayList<String> tempRow = new ArrayList<>();
         tempRow.clear();
@@ -110,7 +110,7 @@ class ct4j
 
     }
 
-    protected void printTable() throws ElementSizeException 
+    public void printTable() throws ElementSizeException 
     {
         row2column(); // converts row into column 
         getMaxColumnLength(); // gets the maximum length of a value from each column 
