@@ -15,7 +15,7 @@ git clone https://github.com/Cozmeh/ConsoleTable4java.git
 ```
 > clone it in your desired folder using the above command in terminal(cmd)
 
-Alternatively, you can download the `jcTable.jar` file from the `Releases` and add it to your project's classpath.
+Alternatively, you can download the [JcTable.jar](https://github.com/Cozmeh/ConsoleTable4java/releases/download/v1.0.0/jcTable.jar) file from the `Releases`(latest) and add it to your project's classpath.
 
 ## Usage
 To use the this module, you need to import the `ct4j` class into your project after adding the `jcTable.jar` to your project's classpath. Then, create an object of the `ct4j` class and use its methods to set up the table and add data to it.
